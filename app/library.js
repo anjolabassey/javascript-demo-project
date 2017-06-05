@@ -3,7 +3,7 @@
 module.exports = {
 
  /* Find the average of three integers */
- computeAverage: (num1, num2, num3) => {
+/* computeAverage: (num1, num2, num3) =>*/ {
    let average;
    // your logic goes here
    average = (num1 + num2 + num3) / 3;
