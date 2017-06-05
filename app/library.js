@@ -14,6 +14,7 @@ computeAverage: (num1, num2, num3) => {
  computeFactorial: (num) => {
    let factorial;
    // your logic goes here
+   factorial = (num * factorial(num - 1));
    return factorial;
  },
 
